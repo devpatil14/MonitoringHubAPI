@@ -23,5 +23,3 @@ def response = WS.sendRequestAndVerify(findTestObject('Sound/GetAllSeverity'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.sucessCode200)
 
-WS.sendRequest(findTestObject(null))
-
